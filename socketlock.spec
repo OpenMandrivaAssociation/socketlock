@@ -12,6 +12,7 @@ Source0: http://mega.ist.utl.pt/~luis/socketlock/%{name}-%{version}.tar.bz2
 License: GPL
 Group: System/Servers
 Url: http://mega.ist.utl.pt/~luis/socketlock/ 
+BuildRoot: %{_tmppath}/%{name}-buildroot
 
 %description
 socketlock is a dynamic library that wraps libc's bind() and connect()

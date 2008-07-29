@@ -1,6 +1,6 @@
 %define name socketlock 
 %define version 0.2
-%define release %mkrel 2
+%define release %mkrel 4
 
 %define libname %_lib%name
 

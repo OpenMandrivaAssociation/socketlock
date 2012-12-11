@@ -73,3 +73,40 @@ rm -rf $RPM_BUILD_ROOT
 %_libdir/libsocketlock.so
 
 
+
+
+%changelog
+* Tue Sep 08 2009 Thierry Vignaud <tvignaud@mandriva.com> 0.2-6mdv2010.0
++ Revision: 433985
+- rebuild
+
+* Sat Aug 02 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.2-5mdv2009.0
++ Revision: 260874
+- rebuild
+
+* Tue Jul 29 2008 Thierry Vignaud <tvignaud@mandriva.com> 0.2-4mdv2009.0
++ Revision: 252722
+- rebuild
+
+* Wed Jan 02 2008 Olivier Blin <oblin@mandriva.com> 0.2-2mdv2008.1
++ Revision: 140829
+- restore BuildRoot
+
+  + Thierry Vignaud <tvignaud@mandriva.com>
+    - kill re-definition of %%buildroot on Pixel's request
+
+
+* Wed Aug 09 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 08/09/06 16:44:39 (54898)
+- rebuild
+
+* Wed Aug 09 2006 Olivier Thauvin <nanardon@mandriva.org>
++ 08/09/06 16:43:46 (54897)
+Import socketlock
+
+* Fri May 13 2005 Olivier Thauvin <nanardon@mandriva.org> 0.2-1mdk
+- 0.2
+
+* Sat Dec 13 2003 Olivier Thauvin <thauvin@aerov.jussieu.fr> 0.1-1mdk
+- 1mdk spec
+
